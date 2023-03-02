@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: wheat;
+  /* p {
+    display: none;
+  } */
+}
+body.dark {
+  background-color: black;
+}
+body.dark .click-button {
+  background-color: dimgray;
+  color: white;
+}
+body.dark p {
+  display: block;
+  color: white;
+}
+body .click-button {
+  padding: 10px;
+  border: none;
+  background-color: lightgreen;
+}
+body .click-button:hover {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  background-color: wheat;
+
+  &.dark {
+    background-color: black;
+
+    .click-button {
+      background-color: dimgray;
+
+      color: white;
+    }
+
+    p {
+      display: block;
+
+      color: white;
+    }
+  }
+
+  .click-button {
+    padding: 10px;
+    
+    border: none;
+  
+    background-color: lightgreen;
+  
+    &:hover {
+      border: 1px solid rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  /* p {
+    display: none;
+  } */
+}
